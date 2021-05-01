@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry People</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href ="fonts/Banny-Round.otf">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+</head>
+<body>
+    <section class="main">
+        <header class="header">
+            <div class="container">
+                <nav class="header__inner">
+                    <ul class="header__navigation-left">
+                        <li class="header__nav"><a href="#" class="header__link">Home</a></li>
+                        <li class="header__nav"><a href="#about" class="header__link">About</a></li>
+                        <li class="header__nav"><a href="#our" class="header__link">Team</a></li>
+                        <li class="header__nav"><a href="#book" class="header__link">Booking</a></li>
+                    </ul>
+                    <img src="images/Vector.png" alt="" class="helm">
+                    <ul class="header__navigation-right">
+                    <li class="header__nav"><a href="#menu" class="header__link">Menu</a></li>
+                    <li class="header__nav"><a href="#gallery" class="header__link">Galerie</a></li>
+                    <li class="header__nav"><a href="#events" class="header__link">Events</a></li>
+                    <li class="header__nav"><a href="#contacts" class="header__link">Contact</a></li>
+                    </ul>
+                </nav>
+            
+        <div class="main__inner">
+            <div class="schedule"><p>Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p></div>
+            <div class="main__content">
+                <h3 class="main__suptitle">Restaurant</h3>
+                <h1 class="main__title">Hungry People</h1>
+                <div class="main__buttons">
+                    <a href="#" class="main__button-table">Book Table</a>
+                    <a href="#" class="main__button-explore">Explore</a>
+                </div>
+            </div>
+            <div class="social">
+                <img src="images/facebook.png" alt="" class="social__item">
+                <img src="images/twitter.png" alt="" class="social__item">
+                <img src="images/instagram.png" alt="" class="social__item">
+            </div>
+            <a href="#" class="main__down"><img src="images/down-btn.png" alt="" class="main__arrow"></a>
+        </div>
+        </div>
+        </header>
+    </section>
+    <section class="about" id ="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__content">
+                    <h2 class="about__title">About us</h2>
+                    <strong class="about__strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</strong>
+                    <p class="about__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+                <div class="about__image">
+                    <img src="images/about-img.png" alt="" class="about__img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our" id="our">
+        <h3 class="our__suptitle">Our team</h3>
+        <div class="container">
+           
+            <div class="our__inner">
+                <div class="our__image">
+                    <img src="images/Rectangle1.png" alt="" class="about__img">
+                </div>
+                <div class="our__content">
+                    <h2 class="our__title">MASTER CHEF</h2>
+                    <strong class="our__strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</strong>
+                    <p class="our__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section class="book" id="book">
+        <div class="container">
+            <div class="book__inner">
+                <div class="book__table">
+                    <h2 class="book__title">Book a table</h2>
+                    <form action="" class="book__form">
+                        <input class="book__input" placeholder = "Name" type="text">
+                        <input class="book__input" placeholder = "Email" type="text">
+                        <input class="book__input" placeholder = "Phone" type="text">
+                        <div class="book__input-select">
+                            <select class="book__input-radio" name="People">
+                                <option disabled selected>People</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                              </select>
+                        
+                        </div>
+                      
+                        <input class="book__input" placeholder = "Date(mm/dd)" type="text">
+                        <div class="book__input-select">
+                            <select class="book__input-radio" name="Time">
+                                <option class="option" disabled selected>Time</option>
+                                <option class="option" value="1">12:00</option>
+                                <option class="option" value="2">18:00</option>
+                                <option class="option" value="3">20:00</option>
+                              </select>
+                        </div>
+                    </form>
+                    <button class="book__button">Book Now</button>
+                </div>
+                <img src="images/book__image.png" alt="" class="book__image">
+            </div>
+        </div>
+    </section>
+    <section class="specialties">
+        <h3 class="our__suptitle">Specialties</h3>
+        <div class="container">
+            <div class="specialties__inner">
+                <div class="swiper-container">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="specialties__image">
+                        <img src="images/specialties.png" alt="" class="about__img">
+                    </div>
+                    <div class="specialties__content">
+                        <h2 class="specialties__title">Chocolate Pancakes</h2>
+                        <strong class="specialties__strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</strong>
+                        <p class="specialties__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="specialties__image">
+                        <img src="images/specialties.png" alt="" class="about__img">
+                    </div>
+                    <div class="specialties__content">
+                        <h2 class="specialties__title">Chocolate Pancakes</h2>
+                        <strong class="specialties__strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</strong>
+                        <p class="specialties__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="specialties__image">
+                        <img src="images/specialties.png" alt="" class="about__img">
+                    </div>
+                    <div class="specialties__content">
+                        <h2 class="specialties__title">Chocolate Pancakes</h2>
+                        <strong class="specialties__strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</strong>
+                        <p class="specialties__text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="menu__inner">
+                    <div class="menu__content">
+                        <h2 class="menu__title">Delicious Menu</h2>
+                        <p class="menu__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                        <div class="menu__tab">
+                            <ul class="menu__list">
+                                <li class="menu__item-tab">Soupe</li>
+                                <li class="menu__item-tab">Pizza</li>
+                                <li class="menu__item-tab">Pasta</li>
+                                <li class="menu__item-tab">Desert</li>
+                                <li class="menu__item-tab">Wine</li>
+                                <li class="menu__item-tab">Beer</li>
+                                <li class="menu__item-tab">Drinks</li>
+                            </ul>
+                        </div>
+                        <div class="menu__table">
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                            <div class="menu__item">
+                                <h3 class="menu__item-text">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                                <p class="menu__subtext">Integer ullamcorper neque eu purus euismod</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="private" id="events">
+        <h3 class="private__suptitle">Private Events</h3>
+        <div class="container">
+            <div class="private__inner">
+                <div class="private__item-left">
+                    <img src="images/image-left.png" alt="#" class="private__image">
+                </div>
+                <div class="private__item-right">
+                    <img src="images/image-right.png" alt="#" class="private__image">
+                </div>
+            </div>
+            <div class="private__text">
+                <p>For private events please call: <strong>+40 729 131 637/+40 726 458 782 </strong> or use the contact form.</p>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="gallery__inner">
+            <a data-fslightbox="gallery" data-type = "image" href="images/gallery1.png">
+                <img src="images/gallery1.png" alt="#" class="gallery__item">
+            </a>
+            <a data-fslightbox="gallery" data-type = "image" href="images/gallery2.png">
+                <img src="images/gallery2.png" alt="#" class="gallery__item">
+            </a>
+            <a data-fslightbox="gallery" data-type = "image" href="images/gallery3.png">
+                <img src="images/gallery3.png" alt="#" class="gallery__item">
+            </a>
+            <a data-fslightbox="gallery" data-type = "image" href="images/gallery4.png">
+                <img src="images/gallery4.png" alt="#" class="gallery__item">
+            </a>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <h2 class="contacts__title">Contact</h2>
+                <p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</p>
+                <form action="" class="contacts__form">
+                    <input type="text" placeholder = "Name" class="contacts__input">
+                    <input type="text" placeholder = "Email" class="contacts__input">
+                    <input type="text" placeholder = "Phone" class="contacts__input">
+                    <input type="text" placeholder = "Message" class="message">
+                    <div class="form__items">
+                        <p class="form__item">5th London Boulevard, U.K.</p>
+                        <p class="form__item">+40 729 131 637/+40 726 458 782 </p>
+                        <p class="form__item">office@mindblister.com</p>
+                        <button class="form__button">Send Message</button>
+                    </div>
+               
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="footer__inner">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8732.73903267851!2d60.558070149054736!3d56.82561941369567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c165eaa062db4b%3A0xd50243d7f7567f20!2z0JXQutCw0YLQtdGA0LjQvdCx0YPRgNCzLCDQodCy0LXRgNC00LvQvtCy0YHQutCw0Y8g0L7QsdC7Lg!5e0!3m2!1sru!2sru!4v1619330415445!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="footer__item">
+                    <p class="footer__text">
+                        © Copyright <strong>Mindblister </strong>2019
+                    </p>
+                </div>
+        </div>
+    </div>
+<script src="js/main.min.js"></script>
+<script src="js/fslightbox.js"></script>
+<script>
+    const swiper = new Swiper('.swiper-container', {
+    // Optional parameters
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  
+  });
+</script>
+</body>
+</html>
